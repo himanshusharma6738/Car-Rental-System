@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;    
+}
+.mySlides {display: none;}
+
+img {vertical-align: middle;}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+.drp_btn{
+    font-size:25px;
+    padding: 5px 25px;
+    background-color: greenyellow;
+    color:blue;
+    border:none;
+    cursor: pointer;
+    font-family: 'calibri';
+    text-shadow: 0 0 3px orange;
+    font-weight: 800;
+}    
+.drp_btn:hover{
+    background-color: black;
+    border-radius: 5px;
+    color:white
+}
+.drp_dn{
+    position: relative;
+    display: inline-block;     
+}
+.drp_dnc{
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(99,55,55,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  width:auto;
+  background-color:greenyellow;
+  color:red;
+  border: 1px;
+  font-family: 'calibri';
+  font-weight: 700;
+  
+}
+.drp_dnc a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+    font-size: 20px;
+    
+}
+.drp_dnc a:hover{
+    background-color: black;
+    color:white;
+
+}
+.drp_dn:hover .drp_dnc{
+    display: inline-block;
+    visibility: visible;
+}
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+header{
+    background-image: url(images.jpg);
+    height: 100vh;
+    background-position:center ;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.navigation-bar{
+    background: #333333;
+    height: 80px;
+
+}
+.logo{
+    margin:10px 50px;
+    height:60px;}
+
+
+.menu{
+     float: right;
+     list-style: none;
+     margin:20px;
+}
+.menu li{
+    display:inline-block;
+    margin: 10px 5px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding:5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+.menu li a:hover{
+    background: #fff;
+    transition: .4s;
+    color:#000;
+}
+
+.marquee1{
+    background-color: black;
+    color:red;
+    width: 100%;
+    height: auto;
+    font-family: 'calibri';
+    
+}
+.contact{
+    color: red;
+    border: 2px;
+    border-style: solid;
+
+}footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color: rgb(5, 57, 90);
+    color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+.container {
+  
+    right: 10%;
+    margin: 30px;
+    max-width: 30%;
+    padding: 16px;
+    background-color: rgb(252, 252, 252);
+
+  }
+
+
+
+
+.search {
+  background-color: rgb(167, 175, 76);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+  
+    background-image: url("background2.jpg");
+  
+    min-height: 300px;
+  
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px 0px 0px ;
+    background-color: gold;
+}
+.img{
+    position: relative;
+    display: block;
+    padding: 7px 0 0 0;
+    cursor: pointer;
+}
+.hh{
+    font-family:"Calibri";
+    font-size:20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    text-shadow: 1.5px 1.5px 10px red;
+}
+.hh:hover{
+    color: indigo;
+    text-decoration: underline;
+}
+.lgn{
+    padding: 40px 17px 0px 0px;
+}
+.log1{
+    border: none;
+    font-size: 30px;
+    font-family:"Comic Sans Ms";
+    position: relative;
+    width: auto;
+    height: 75px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: maroon;
+    color: whitesmoke;
+    position: right;
+}    
+.log1:hover{
+    background-color: tomato;
+    color:white;
+}
+.panel{
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    border: 2;
+    background-color:greenyellow;
+    opacity: 0.6;
+    position: relative;
+    color: blue;
+    display:flex;
+    justify-content: space-around;  
+    
+}
+.drp_btn{
+    font-size:25px;
+    padding: 5px 25px;
+    background-color: greenyellow;
+    color:blue;
+    border:none;
+    cursor: pointer;
+    font-family: 'calibri';
+    text-shadow: 0 0 3px orange;
+    font-weight: 800;
+}    
+.drp_btn:hover{
+    background-color: black;
+    border-radius: 5px;
+    color:white
+}
+.drp_dn{
+    position: relative;
+    display: inline-block;     
+}
+.drp_dnc{
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(99,55,55,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  width:auto;
+  background-color:greenyellow;
+  color:red;
+  border: 1px;
+  font-family: 'calibri';
+  font-weight: 700;
+  
+}
+.marquee1{
+    background-color: #1D2951;
+    color:white;
+    width: 100%;
+    height: auto;
+    font-family: 'calibri';
+    
+}
+.reg_main{
+align:center;
+    background-color: hotpink;
+    background-image: url(3.jpg);
+    background-size: cover;
+    text-shadow: 1.5px 1.5px black;
+    color: gold;
+    
+    
+}
+.log_main{
+    background-color: burlywood;
+    background-size: cover;
+    text-shadow: 1.5px 1.5px whitesmoke;
+    color: black;
+    background-image: url(5.jpg);
+}
+.table1{
+    width:100%;
+    text-align: center;
+    color: whitesmoke;
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+    font-size: auto;
+    
+}
+.table2{
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    font-family: 'comic sans ms';
+    text-align: center;
+}
+.flog{
+    border:2;
+    width:100%;
+    height:auto;
+    font-family: 'comic sans ms';
+    text-align: center;    
+}
+.sub{
+    background-color: #4CAF50;
+    border: 2px solid red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 20px;
+    width: 30%;
+
+}
+
+
+
+
+

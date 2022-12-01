@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="style.js"></script>
+    <title>Grand Prix Motors</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="img"><img src="c1f7d97ff0106459f5905dace32238ac.png" height=auto width='250'onclick="window.location.href='index.html'"></div>
+
+      <div class="hh"><h1 align="center" onclick="window.location.href='index.html'">Grand Prix Motors</h1></div>
+
+      <div class="lgn">
+        <button class="log1"onclick="window.location.href='#logd'">Go To Log In</button>
+      </div>
+    </div>
+    <div class="panel">
+        <div class="drp_dn">
+          <button class="drp_btn" onclick="window.location.href='index.html'">Home</button>
+        </div>
+ <div class="drp_dn">
+          <button class="drp_btn" onclick="window.location.href='index.html#ff'">Popular Destinations</button>
+            <div class="drp_dnc">
+              <a style="white-space:nowrap;" class="l1"  href="#punjab">Punjab</a>
+              <a style="white-space:nowrap;" class="l1" href="#delhi">Delhi</a>
+              <a style="white-space:nowrap;" class="l1" href="#mumbai">Mumbai</a>
+            </div>
+           </div>
+        <div class="drp_dn">
+          <button class="drp_btn"  onclick="window.location.href='#footer'">Contact Us</button>
+        </div>      
+        <div class="drp_dn">
+          <button class="drp_btn" onclick="alert('Please first Log In into your account (if you are Registered) and Incase you are Not a Registered User, please register yourself first. Please press OK button to continue');alert('Currently you are on Login and SignUp page of this Website itself. Please press OK button to continue');">My Account</button>
+        </div>
+      </div>  
+    
+       <div class="marquee1">
+    <br>
+    <marquee behaviour=scroll direction="right" scrollamount=10 ><h2>Welcome! To The Login Page // Sign Up Grand Prix Motors</h2></marquee> 
+    
+    <marquee behavior="scroll" direction="left"><h2>Here,You can register yourself and use the Username and Password to login into the Grand Prix Motors</h2></marquee>
+
+      </div>
+      <div class="reg_main">
+        <h1 align=center class="reg">
+          Registration
+        </h1>
+        <form class="flog">
+          First Name *: 
+          <input type="text" class="fname" placeholder="First Name" id="fname" required >
+          Last Name *:
+          <input type="text" class="lname" placeholder="Last Name" id ="lname" required>
+          <br>
+          E-mail *:
+          <input type="email" class="email" placeholder="E-mail" id="email" required>
+          Phone Number *:
+          <input type="tel" class="tel" placeholder="Mobile Number" maxlength="10" minlength="10" required>
+          <br>
+          Password *:
+          <input type="password" class="pass" placeholder="Password" minlength="8" id="pass" required>
+          DOB:
+          <input type="date" class="dob">
+          <br>
+          <input type="button" value="Register" class="sub" onclick="store();window.location.href='#logd'">
+        </form>
+          <pre class="pre1">
+          Note--> 1) Fields Marked with (*) are compulsory to fill.
+                  2) Your E-mail will be used as the Username to login into your account.
+                  3) Password should be of minimum 8 characters, also remember it as their is no way to reset it.
+          </pre>
+        </div>
+          <div class="log_main" id="logd">
+          <h1 align=center class="login">
+          Log In
+          </h1>
+          <table width=50% height=auto align=center border=2 cellspacing=20 cellpadding=10 align="center" bordercolor="Black" class="table2">
+            <caption >Login Credentials :: </caption>
+            <tr>
+              <th>Username</th>
+              <th>Password</th>
+            </tr>
+            <tr>
+              <td id="du">123@admin</td>
+              <td id="dp">admin123</td>
+            </tr>
+            
+          </table>
+          <br>
+          <form class="flog">
+          Username *:
+          <input type="email" class="lemail" placeholder="E-mail" id="lemail">
+          <br>
+          Password *:
+          <input type='password' class="lpass" placeholder="Password" id="lpass">
+          <br>
+          <input type="button" value="Log In" class="sub" onclick="log_chk()">
+          <br><br>
+
+
+        </form>
+      </div>
+      <hr class="mhr">
+      <footer id="footer">
+        <h1>Contact Us</h1>
+        <hr align="center" width=10% class="hr1">
+        <br>
+        For More Information E-mail Us at :: himanshusharma6738@gmail.com
+        <br><br>
+        Contact Numbers :: +91 9898989898 , 7838451159
+        <br><br>
+        &copy; Himanshu Sharma, Herin Sharan
+        <br><br>
+       Developed By ::&emsp;
+  <a href="https://www.linkedin.com/in/himanshu-sharma-779829252"><img src="linkedin.png" width=50 height=auto alt="Gourav LinkedIn" class="icons"></a>
+  &emsp;
+  
+  </footer> 
+      </footer>
